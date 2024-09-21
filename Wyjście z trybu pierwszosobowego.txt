@@ -1,0 +1,8 @@
+-- Funkcja odpowiedzialna za wyjście z trybu pierwszoosobowego
+local function exitFirstPerson()
+    -- Ustawienie trybu kamery na trzecioosobowy
+    game.Players.LocalPlayer.CameraMode = Enum.CameraMode.Classic
+end
+
+-- Wywołanie funkcji wyjścia z trybu pierwszoosobowego
+exitFirstPerson()
